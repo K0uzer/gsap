@@ -1,0 +1,44 @@
+.body {
+  background-color: bisque;
+  height: 2000px;
+}
+
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin-top: 200px;
+  margin-left: 50px;
+  // border-radius: 50%;
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin-top: 200px;
+  margin-left: 50px;
+  // border-radius: 50%;
+}
+
+.c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  margin-top: 200px;
+  margin-left: 50px;
+  // border-radius: 50%;
+}
+

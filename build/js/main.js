@@ -1,5 +1,6 @@
-gsap.registerPlugin(ScrollTrigger);
+"use strict";
 
+gsap.registerPlugin(ScrollTrigger);
 gsap.to('.c', {
   scrollTrigger: {
     trigger: '.a',
@@ -20,9 +21,9 @@ gsap.to('.c', {
     // toggleClass: 'active',
     id: 'my-id',
     markers: true,
-    toggleActions: 'restart pause reverse pause',
+    toggleActions: 'restart pause reverse pause'
   },
   x: 400,
   rotation: 360,
-  duration: 3,
+  duration: 3
 });
